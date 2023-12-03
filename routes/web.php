@@ -27,8 +27,9 @@ Route::get('/login', [Login::class, "index"])->name("login-pages");
 Route::get('/signup', [Signup::class, "index"])->name("signup-pages");
 
 // Dashboard page
-Route::get('/',[Home::class, "index"])->name("home-pages");
-Route::get('/data',[Data::class, "index"])->name("data-pages");
+Route::get('/', [Home::class, "index"])->name("home-pages");
+Route::get('/data', [Data::class, "index"])->name("data-pages");
+Route::get('/data/detail', [Data::class, "show"])->name("data-pages-detail");
 // dataset page
-Route::get('/dataset',[Dataset::class, "index"])->name("dataset-pages");
-Route::get('/dataset/view',[Dataset::class, "selectData"])->name("select-dataset");
+Route::get('/dataset', [Dataset::class, "index"])->name("dataset-pages");
+Route::get('/dataset/view', [Dataset::class, "selectData"])->name("select-dataset");
