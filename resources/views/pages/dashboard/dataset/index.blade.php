@@ -34,10 +34,10 @@
                 </select>
             </div>
         </div>
-        <div class="search-bar container-fluid w-75 d-flex justify-content-start mt-5 fs-2">
-            <span class="badge badge-warning"> &nbsp; </span><b class="me-2">100</b> Data Ditemukan
+        <div class="search-bar container-fluid w-75 d-flex justify-content-start mt-3 fs-2 align-items-center">
+            <span class="text-warning p-0 m-0" style="font-size:70px;"> &bull; </span><b class="me-2">100</b> Data Ditemukan
         </div>
-        <div class="list-dataset w-100 d-flex justify-content-center my-5">
+        <div class="list-dataset w-100 d-flex justify-content-center my-3">
             <div class="list-group rounded-4 border border-dark w-75">
                 <x-itemListGroup :dataJenis="['CSV','XLSX']" title="Jumlah Data Peserta Magang Provinsi Banten di DPR RI" pusatData="Dewan Perwakilan Rakyat" date="12 Desember 2022">Dataset yang berisi data para peserta magang dari Provinsin Banten.</x-itemListGroup>
                 <x-itemListGroup :dataJenis="['CSV','XLSX']" title="Jumlah Data Peserta Magang Provinsi Banten di DPR RI" pusatData="Dewan Perwakilan Rakyat" date="12 Desember 2022">Dataset yang berisi data para peserta magang dari Provinsin Banten.</x-itemListGroup>

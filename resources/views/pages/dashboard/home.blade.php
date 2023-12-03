@@ -7,6 +7,42 @@
     <!-- <script src="{{ asset('js/chartjs/chart.js') }}"></script> -->
     <!-- Pastikan ini ditempatkan sebelum kode JavaScript Anda -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+  /* Ganti warna latar belakang datepicker */
+  .ui-datepicker {
+    background-color: rgb(47, 42, 39, 0.7);
+    color:white;
+    border-radius:15px;
+    overflow:hidden;
+    width:400px;
+    height:500px;
+  }
+  .ui-datepicker .ui-datepicker-header{
+    background:transparent;
+    border:none;
+    margin-top:15px;
+    padding-x:20px;
+  }
+ .ui-datepicker table{
+    height:70%;
+ }
+ .ui-datepicker td > a:hover{
+    background-color: rgb(47, 42, 39, 0.4) !important;
+    transition:0.5s;
+ }
+ .ui-datepicker td > a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:transparent !important;
+    border:none !important;
+    width:100%;
+    height:100%;
+    color:white !important;
+    transition:0.5s;
+ }
+ 
+    </style>
 @endsection
 
 @section('content')
