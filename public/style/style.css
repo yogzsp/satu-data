@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&family=Zen+Dots&display=swap');
+
+body{
+    overflow-y: hidden;
+}
+
+.font-title{
+    color:red;
+}

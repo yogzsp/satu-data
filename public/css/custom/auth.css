@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&family=Zen+Dots&display=swap');
+
+a{
+    text-decoration: none;
+    color: #D4A216;
+}
+.border-custom{
+    border-color: #D4A216;
+}
+.bg-cus{
+    background-color: #D4A216;
+    color: white;
+}
+.bg-cus:hover{
+    background-color: #967419;
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .form-account {
+      width: 100% !important;
+    }
+}

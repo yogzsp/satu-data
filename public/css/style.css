@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&family=Zen+Dots&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+
+/* tulisan */
+.title-logo{
+    font-family: 'Zen Dots', sans-serif;
+    font-size: 24px;
+}
+.footer-logo{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 13.5px;
+    letter-spacing: 1.3px;
+}
+
+
+/* background */
+.bg-custom1{
+    background-color: #2F2A27;
+    color:white;
+}
+.bg-batik{
+    background-image: url("/images/main/bg.png");
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
