@@ -13,7 +13,7 @@
 
     <div class="w-100 py-5">
         <div class="w-100 bg-back position-fixed bg-batik" style="height:100%;top:0;z-index:-1;opacity:0.5;"></div>
-        <div class="w-100 bg-back position-absolute" style="background-color:#DADADA;min-height:44vh;top:0;z-index:-1;"></div>
+        <div class="w-100 bg-back position-absolute" style="background-color:#DADADA;min-height:430px;top:0;z-index:-1;"></div>
         <div class="w-100 wellcome-screen container-fluid px-5 mx-5 d-flex justify-content-center">
             <div class="row row-cols-2 w-75">
                 <div class="col-7 ps-5 d-flex align-items-center">
@@ -25,7 +25,7 @@
                     </div>
                 </div>
                 <div class="col-4 d-flex justify-content-end">
-                    <img src="{{ asset('images/main/assets/komputer2.png') }}" class="w-75">
+                    <img src="{{ asset('images/main/assets/komputer2.png') }}" style="width:300px;">
                 </div>
             </div>
         </div>

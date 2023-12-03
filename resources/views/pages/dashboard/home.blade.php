@@ -48,7 +48,7 @@
 @section('content')
     <div class="w-100 py-5">
         <div class="w-100 bg-back position-fixed bg-batik" style="height:100%;top:0;z-index:-1;opacity:0.5;"></div>
-        <div class="w-100 bg-back position-absolute" style="background-color:#969492;min-height:75vh;top:0;z-index:-1;"></div>
+        <div class="w-100 bg-back position-absolute" style="background-color:#969492;min-height:800px;top:0;z-index:-1;"></div>
         <div class="w-100 wellcome-screen container-fluid px-5 m-5">
             <div class="row row-cols-2">
                 <div class="col">

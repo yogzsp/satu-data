@@ -34,8 +34,15 @@
                 </select>
             </div>
         </div>
-        <div class="search-bar container-fluid w-75 d-flex justify-content-start mt-3 fs-2 align-items-center">
-            <span class="text-warning p-0 m-0" style="font-size:70px;"> &bull; </span><b class="me-2">100</b> Data Ditemukan
+        <div class="search-bar container-fluid w-75 d-flex justify-content-start mt-3 fs-2">
+            <div class="row row-cols-2 w-100">
+                <div class="col bg-danger">
+                    <span class="text-warning p-0 m-0" style="font-size:70px;"> &bull; </span><b class="me-2">100</b> Data Ditemukan
+                </div>
+                <div class="col text-end bg-dark alignt-items-center">
+                    <button class="btn btn-primary">Set Request</button>
+                </div>
+            </div>
         </div>
         <div class="list-dataset w-100 d-flex justify-content-center my-3">
             <div class="list-group rounded-4 border border-dark w-75">
