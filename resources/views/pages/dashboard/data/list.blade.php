@@ -39,7 +39,7 @@
             <div class="list-menu py-4 px-5 row row-cols-6">
                 @foreach($dashboardData as $data)
                     <div class="col-md-3 mb-4">
-                        <x-cardMenu url="{{route('dashboard-detail-pages',['id'=>$data->id])}}" wx="22rem" title="Data {{$data->name;}}" source="images/main/profile.png">Lorem ipsum dolor sit amet consectetur adipisicing elit. </x-cardMenu>
+                        <x-cardMenu url="{{route('dashboard-detail-pages',['id'=>$data->id])}}" wx="18rem" title="Data {{$data->name;}}" source="images/main/profile.png">Lorem ipsum dolor sit amet consectetur adipisicing elit. </x-cardMenu>
                     </div>
                 @endforeach
             </div>
