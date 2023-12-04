@@ -58,6 +58,10 @@
           color: #D4A216;
           border-bottom: 2px solid #D4A216;
         }
+
+        .list-menu .list-group .list-group-item .active{
+          background-color:#D4A216;
+        }
     </style>
 @endsection
 
@@ -190,7 +194,111 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
+
+    <!-- list bawah -->
+    <div class="data-menu mt-3">
+      <div class="list-menu">
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item p-0 border-dark fw-bold">
+                <button class="nav-link active px-4 py-2" data-bs-toggle="tab" data-bs-target="#grafik-data">Grafik</button>
+            </li>
+            <li class="list-group-item p-0 border-dark fw-bold">
+                <button class="nav-link px-4 py-2" data-bs-toggle="tab" data-bs-target="#table-data">Tabel</button>
+            </li>
+            <li class="list-group-item p-0 border-dark fw-bold">
+                <button class="nav-link px-4 py-2" data-bs-toggle="tab" data-bs-target="#peta-data">Peta</button>
+            </li>
+        </ul>
+      </div>
+      <div class="menu-data tab-content border border-dark mt-3 rounded-3" style="overflow:hidden;">
+        <div id="grafik-data" class="w-100 p-5 tab-pane fade show active">
+            <x-lineChart label='["saty","dua","tiga","empat"]' tag="dataLine" data='[100,500,200,300]' bg='["blue"]' borderw="0.3">
+                Nilai dari 
+            </x-lineChart>
+        </div>
+        <div id="table-data" class="tab-pane fade">
+          <table class="table custom-table">
+            <thead>
+              <tr>
+              <th scope="col">
+              <label class="control control--checkbox">
+              <input type="checkbox" class="js-check-all" />
+              <div class="control__indicator"></div>
+              </label>
+              </th>
+              <th scope="col">Order</th>
+              <th scope="col">Sales</th>
+              <th scope="col">Description</th>
+              <th scope="col">Support</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">
+                  <label class="control control--checkbox">
+                    <input type="checkbox" />
+                    <div class="control__indicator"></div>
+                  </label>
+                </th>
+                <td>
+                  1392
+                </td>
+                <td>Sales Pitch - 2019</td>
+                <td>
+                  Far far away, behind the word mountains
+                  <small class="d-block">Far far away, behind the word mountains</small>
+                </td>
+                <td>+63 983 0962 971</td>
+                <td>
+                  <img src="{{ asset('images/main/profile.png') }}" alt="Person" class="img-fluid">
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <label class="control control--checkbox">
+                    <input type="checkbox" />
+                    <div class="control__indicator"></div>
+                  </label>
+                </th>
+                <td>
+                  1392
+                </td>
+                <td>Sales Pitch - 2019</td>
+                <td>
+                  Far far away, behind the word mountains
+                  <small class="d-block">Far far away, behind the word mountains</small>
+                </td>
+                <td>+63 983 0962 971</td>
+                <td>
+                  <img src="{{ asset('images/main/profile.png') }}" alt="Person" class="img-fluid">
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <label class="control control--checkbox">
+                    <input type="checkbox" />
+                    <div class="control__indicator"></div>
+                  </label>
+                </th>
+                <td>
+                  1392
+                </td>
+                <td>Sales Pitch - 2019</td>
+                <td>
+                  Far far away, behind the word mountains
+                  <small class="d-block">Far far away, behind the word mountains</small>
+                </td>
+                <td>+63 983 0962 971</td>
+                <td>
+                  <img src="{{ asset('images/main/profile.png') }}" alt="Person" class="img-fluid">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>

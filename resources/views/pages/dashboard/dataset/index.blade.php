@@ -7,15 +7,6 @@
     <!-- <script src="{{ asset('js/chartjs/chart.js') }}"></script> -->
     <!-- Pastikan ini ditempatkan sebelum kode JavaScript Anda -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-        .kategori-file li{
-            float:left;
-            border:solid 1px gray;
-            border-radius:20px;
-            padding:4px;
-            background-color:rgb(128,128,128,0.2);
-        }
-    </style>
 @endsection
 
 @section('content')
@@ -36,10 +27,10 @@
         </div>
         <div class="search-bar container-fluid w-75 d-flex justify-content-start mt-3 fs-2">
             <div class="row row-cols-2 w-100">
-                <div class="col bg-danger">
-                    <span class="text-warning p-0 m-0" style="font-size:70px;"> &bull; </span><b class="me-2">100</b> Data Ditemukan
+                <div class="col d-flex align-items-center">
+                    <span class="text-warning p-0 me-1" style="font-size:70px;">&bull;</span> <b class="me-2">100</b> Data Ditemukan
                 </div>
-                <div class="col text-end bg-dark alignt-items-center">
+                <div class="col text-end d-flex align-items-center justify-content-end">
                     <button class="btn btn-primary">Set Request</button>
                 </div>
             </div>

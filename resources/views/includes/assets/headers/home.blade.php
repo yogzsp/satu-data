@@ -21,9 +21,6 @@
                 <a class="nav-link" href="#">Dashboard</a>
             </li>
             <li class="nav-item px-3 fs-4">
-                <a class="nav-link" href="#">Infografis</a>
-            </li>
-            <li class="nav-item px-3 fs-4">
                 <a class="nav-link" href="#">Tentang</a>
             </li>
             <li class="nav-item px-3 fs-4">

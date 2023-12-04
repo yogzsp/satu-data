@@ -4,7 +4,7 @@
 </div>
 <div class="col logos-text text-start">
     <div class="title-logo row align-items-end text-white">
-        SATU DATA
+        PORTAL DATA
     </div>
     <div class="footer-logo text-white row">
         Dewan Perwakilan Rakyat

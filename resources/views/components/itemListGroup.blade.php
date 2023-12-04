@@ -17,7 +17,9 @@
                 <div class="col-9">
                     <ul class="list-inline kategori-file">
                         @foreach($dataJenis as $listData)
-                            <li class="list-inline-item">{{$listData}}</li>
+                            <li class="list-inline-item btn border border-secondary rounded-pill" style="background-color:rgb(128,128,128,0.2)">
+                                    {{$listData}}
+                            </li>
                         @endforeach
                     </ul>
                 </div>
