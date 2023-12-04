@@ -38,7 +38,7 @@
         <div class="topik-list container-fluid w-100 d-flex justify-content-center my-5">
           <div class="row row-cols-4 d-flex justify-content-evenly">
             <div class="col">
-                <a href="{{ route('data-pages-detail') }}">
+                <a href="{{ route('dataset-pages') }}">
                   <div class="rounded-3 icon-topik bg-white border border-secondary d-flex justify-content-center" style="width:200px;height:200px; overflow:hidden;">
                       <img src="{{ asset('images/main/assets/icons/pilot.png') }}" style="width:95%;" class="align-self-end">
                   </div>
@@ -48,7 +48,7 @@
                 </a>
               </div>
               <div class="col">
-                <a href="{{ route('data-pages-detail') }}">
+                <a href="{{ route('dataset-pages') }}">
                   <div class="rounded-3 icon-topik bg-white border border-secondary d-flex justify-content-center" style="width:200px;height:200px; overflow:hidden;">
                       <img src="{{ asset('images/main/assets/icons/pariwisata.png') }}" style="width:95%;" class="align-self-end">
                   </div>
@@ -58,7 +58,7 @@
                 </a>
               </div>
               <div class="col">
-                <a href="{{ route('data-pages-detail') }}">
+                <a href="{{ route('dataset-pages') }}">
                   <div class="rounded-3 icon-topik bg-white border border-secondary d-flex justify-content-center" style="width:200px;height:200px; overflow:hidden;">
                       <img src="{{ asset('images/main/assets/icons/sailor.png') }}" style="width:82%;" class="align-self-end">
                   </div>
@@ -68,7 +68,7 @@
                 </a>
               </div>
               <div class="col">
-                <a href="{{ route('data-pages-detail') }}">
+                <a href="{{ route('dataset-pages') }}">
                   <div class="rounded-3 icon-topik bg-white border border-secondary d-flex justify-content-center" style="width:200px;height:200px; overflow:hidden;">
                       <img src="{{ asset('images/main/assets/icons/health.png') }}" style="width:100%;" class="align-self-end">
                   </div>

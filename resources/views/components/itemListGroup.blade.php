@@ -1,4 +1,4 @@
-<a href="#" class="border border-dark list-group-item list-group-item-action list-group-item-light">
+<a href="{{route($url)}}" class="border border-dark list-group-item list-group-item-action list-group-item-light">
     <div class="row row-cols-2">
         <div class="col-9">
             <div class="row row-cols-2 p-2">

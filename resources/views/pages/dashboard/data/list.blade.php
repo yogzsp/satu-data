@@ -32,16 +32,47 @@
                         <span class="text-warning p-0 me-1" style="font-size:70px;">&bull;</span> <b class="me-2">100</b> Data Ditemukan
                     </div>
                     <div class="col text-end d-flex align-items-center justify-content-end">
-                        <button class="btn btn-primary">Set Request</button>
+                        <button class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#myModal">Set Request</button>
                     </div>
                 </div>
             </div>
             <div class="list-menu py-4 px-5 row row-cols-6">
-                @foreach(range(1, 30) as $index)
+                @foreach($dashboardData as $data)
                     <div class="col-md-3 mb-4">
-                        <x-cardMenu wx="22rem" title="Data {{$index}}" source="images/main/profile.png">Lorem ipsum dolor sit amet consectetur adipisicing elit. </x-cardMenu>
+                        <x-cardMenu url="{{route('dashboard-detail-pages',['id'=>$data->id])}}" wx="22rem" title="Data {{$data->name;}}" source="images/main/profile.png">Lorem ipsum dolor sit amet consectetur adipisicing elit. </x-cardMenu>
                     </div>
                 @endforeach
+            </div>
+        </div>
+
+
+
+        <!-- ini modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Input Data Tableau</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Form Input Nama Tableau dan Kode HTML -->
+                    <!-- Form Input Nama Tableau dan Kode HTML -->
+                    <form action="{{ route('dashboard-up') }}" method="post">
+                        @csrf
+                        <div class="mb-3">
+                            <label for="namaTableau" class="form-label">Nama Tableau:</label>
+                            <input type="text" class="form-control" id="namaTableau" name="name" placeholder="Masukkan Nama Tableau" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="kodeHTML" class="form-label">Kode HTML:</label>
+                            <textarea class="form-control" id="kodeHTML" name="embed" rows="5" placeholder="Masukkan Kode HTML" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Simpan</button>
+                    </form>
+
+                </div>
+                </div>
             </div>
         </div>
     </main>

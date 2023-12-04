@@ -12,10 +12,10 @@ return new class extends Migration
     public function up(): void
     {
         //
-        Schema::create('tableu', function (Blueprint $table) {
+        Schema::create('tableus', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('url');
+            $table->text('embed',10000);
             $table->timestamps();
         });
     }

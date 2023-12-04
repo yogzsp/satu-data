@@ -33,5 +33,8 @@ Route::get('/data', [Data::class, "index"])->name("data-pages");
 Route::get('/data/detail', [Data::class, "show"])->name("data-pages-detail");
 // dataset page
 Route::get('/dashboard',[Dashboard::class,"index"])->name("dashboard-pages");
+Route::post('/dashboard/up', [Dashboard::class, 'uploadDashboard'])->name('dashboard-up');
+Route::get('/dashboard/view/{id}',[Dashboard::class,"detailShow"])->name("dashboard-detail-pages");
+// dataset
 Route::get('/dataset', [Dataset::class, "index"])->name("dataset-pages");
 Route::get('/dataset/view', [Dataset::class, "selectData"])->name("select-dataset");

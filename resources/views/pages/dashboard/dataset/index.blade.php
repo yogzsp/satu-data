@@ -37,13 +37,7 @@
         </div>
         <div class="list-dataset w-100 d-flex justify-content-center my-3">
             <div class="list-group rounded-4 border border-dark w-75">
-                <x-itemListGroup :dataJenis="['CSV','XLSX']" title="Jumlah Data Peserta Magang Provinsi Banten di DPR RI" pusatData="Dewan Perwakilan Rakyat" date="12 Desember 2022">Dataset yang berisi data para peserta magang dari Provinsin Banten.</x-itemListGroup>
-                <x-itemListGroup :dataJenis="['CSV','XLSX']" title="Jumlah Data Peserta Magang Provinsi Banten di DPR RI" pusatData="Dewan Perwakilan Rakyat" date="12 Desember 2022">Dataset yang berisi data para peserta magang dari Provinsin Banten.</x-itemListGroup>
-                <x-itemListGroup :dataJenis="['CSV','XLSX']" title="Jumlah Data Peserta Magang Provinsi Banten di DPR RI" pusatData="Dewan Perwakilan Rakyat" date="12 Desember 2022">Dataset yang berisi data para peserta magang dari Provinsin Banten.</x-itemListGroup>
-                <x-itemListGroup :dataJenis="['CSV','XLSX']" title="Jumlah Data Peserta Magang Provinsi Banten di DPR RI" pusatData="Dewan Perwakilan Rakyat" date="12 Desember 2022">Dataset yang berisi data para peserta magang dari Provinsin Banten.</x-itemListGroup>
-                <x-itemListGroup :dataJenis="['CSV','XLSX']" title="Jumlah Data Peserta Magang Provinsi Banten di DPR RI" pusatData="Dewan Perwakilan Rakyat" date="12 Desember 2022">Dataset yang berisi data para peserta magang dari Provinsin Banten.</x-itemListGroup>
-                <x-itemListGroup :dataJenis="['CSV','XLSX']" title="Jumlah Data Peserta Magang Provinsi Banten di DPR RI" pusatData="Dewan Perwakilan Rakyat" date="12 Desember 2022">Dataset yang berisi data para peserta magang dari Provinsin Banten.</x-itemListGroup>
-                <x-itemListGroup :dataJenis="['CSV','XLSX']" title="Jumlah Data Peserta Magang Provinsi Banten di DPR RI" pusatData="Dewan Perwakilan Rakyat" date="12 Desember 2022">Dataset yang berisi data para peserta magang dari Provinsin Banten.</x-itemListGroup>
+                <x-itemListGroup url="data-pages-detail" :dataJenis="['CSV','XLSX']" title="Jumlah Data Peserta Magang Provinsi Banten di DPR RI" pusatData="Dewan Perwakilan Rakyat" date="12 Desember 2022">Dataset yang berisi data para peserta magang dari Provinsin Banten.</x-itemListGroup>
             </div>
         </div>
     </div>

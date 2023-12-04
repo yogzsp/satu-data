@@ -18,7 +18,7 @@
                 <a class="nav-link" href="{{route('data-pages')}}">Data</a>
             </li>
             <li class="nav-item px-3 fs-4">
-                <a class="nav-link" href="#">Dashboard</a>
+                <a class="nav-link" href="{{route('dashboard-pages')}}">Dashboard</a>
             </li>
             <li class="nav-item px-3 fs-4">
                 <a class="nav-link" href="#">Tentang</a>
