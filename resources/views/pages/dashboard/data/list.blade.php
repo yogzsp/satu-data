@@ -29,7 +29,7 @@
             <div class="search-bar container-fluid w-75 d-flex justify-content-start fs-2">
                 <div class="row row-cols-2 w-100">
                     <div class="col d-flex align-items-center">
-                        <span class="text-warning p-0 me-1" style="font-size:70px;">&bull;</span> <b class="me-2">100</b> Data Ditemukan
+                        <span class="text-warning p-0 me-1" style="font-size:70px;">&bull;</span> <b class="me-2">{{count($dashboardData)}}</b> Data Ditemukan
                     </div>
                     <div class="col text-end d-flex align-items-center justify-content-end">
                         <button class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#myModal">Set Request</button>
